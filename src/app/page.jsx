@@ -2,6 +2,8 @@ import CategoryList from "@/components/categoryList/CategoryList";
 import styles from "./homepage.module.css";
 import React from 'react'
 import CardList from "@/components/cardList/CardList";
+import Featured from "@/components/featured/Featured";
+import Menu from "@/components/menu/Menu";
 
 export default function page() {
   return (
