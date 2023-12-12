@@ -3,6 +3,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Footer from '@/components/footer/Footer'
 import { ThemeContextProvider } from '@/context/ThemeContext'
+import ThemeProvider from '@/providers/ThemeProvider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -16,13 +17,15 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {/* Where theme state can be shared across the app */}
         <ThemeContextProvider>
-            <div className="container">
-                <div className='wrapper'>
-                    <Navbar />
-                    {children}
-                    <Footer />
+            <ThemeProvider>
+                <div className="container">
+                    <div className='wrapper'>
+                        <Navbar />
+                          {children}
+                        <Footer />
+                    </div>
                 </div>
-            </div>
+            </ThemeProvider>
         </ThemeContextProvider>
       </body>
     </html>
