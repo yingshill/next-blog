@@ -20,6 +20,52 @@
  left: 1px;
 }
 
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/authLinks/authLinks.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.authLinks_link__yirEv {
+ cursor: pointer;
+}
+
+.authLinks_burger__pRjeS {
+ width: 20px;
+ height: 16px;
+ display: none;
+ flex-direction: column;
+ justify-content: space-between;
+ cursor: pointer;
+}
+
+.authLinks_line__hpTU5 {
+ width: 100%;
+ height: 2px;
+ background-color: var(--textColor);
+}
+
+.authLinks_responsiveMenu__nnHTP {
+ position: absolute;
+ top: 100px;
+ left: 0;
+ background-color: var(--bg);
+ height: calc(100vh - 100px);
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 50px;
+ font-size: 36px;
+}
+
+@media screen and (max-width: 640px) {
+ .authLinks_burger__pRjeS {
+  display: flex;
+ }
+ .authLinks_link__yirEv {
+  display: none;
+ }
+}
+
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[5].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src/app/layout.js","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"} ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -120,11 +166,38 @@
  font-size: 20px;
 }
 
-/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/authLinks/authLinks.module.css ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************/
-.authLinks_link__yirEv {
- cursor: pointer;
+@media screen and (max-width: 1280px) {
+ .navbar_logo__uZP7g {
+  font-size: 32px;
+ }
+ .navbar_links__zwFDW {
+  font-size: 18px;
+  gap: 15px;
+ }
+}
+
+@media screen and (max-width: 1024px) {
+ .navbar_social__Zhp3T {
+  display: none;
+ }
+ .navbar_logo__uZP7g {
+  text-align: left;
+ }
+}
+
+@media screen and (max-width: 768px) {
+ .navbar_logo__uZP7g {
+  font-size: 24px;
+ }
+}
+
+@media screen and (max-width: 640px) {
+ .navbar_links__zwFDW {
+  justify-content: flex-end;
+ }
+ .navbar_link__AyfKG {
+  display: none;
+ }
 }
 
 /*!***************************************************************************************************************************************************************************************************************************************************************!*\
@@ -158,6 +231,13 @@ a {
  --textColor: #ddd;
  --softBg: #1f273a;
  --softTextColor: #a6a6a6;
+}
+
+.light {
+ --bg: white;
+ --textColor: black;
+ --softBg: #f0f0f0;
+ --softTextColor: #626262;
 }
 
 .container {
