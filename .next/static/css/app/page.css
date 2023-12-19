@@ -1,3 +1,58 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/categoryList/categoryList.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.categoryList_container__s6HpR {
+}
+
+.categoryList_title__8DsfE {
+ margin: 50px 0px;
+}
+
+.categoryList_categories__JjFld {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ gap: 25px;
+}
+
+.categoryList_category__kGfZ1 {
+ display: flex;
+ align-items: center;
+ gap: 10px;
+ width: 15%;
+ height: 60px;
+ justify-content: center;
+ border-radius: 10px;
+}
+
+.categoryList_category__kGfZ1.categoryList_style__BIpo_ {
+ background-color: #57c4ff31;
+}
+
+.categoryList_category__kGfZ1.categoryList_fashion__GFI8t {
+ background-color: #da85c731;
+}
+
+.categoryList_category__kGfZ1.categoryList_food__AaDJS {
+ background-color: #7fb88133;
+}
+
+.categoryList_category__kGfZ1.categoryList_travel__gnqt1 {
+ background-color: #ff795736;
+}
+
+.categoryList_category__kGfZ1.categoryList_culture__N8ciR {
+ background-color: #ffb04f45;
+}
+
+.categoryList_category__kGfZ1.categoryList_coding__nDVNj {
+ background-color: #5e4fff31;
+}
+
+.categoryList_image__DU_oJ {
+ border-radius: 50%;
+}
+
 /*!*********************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/app/homepage.module.css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************/
