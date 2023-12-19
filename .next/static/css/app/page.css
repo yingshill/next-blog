@@ -53,6 +53,30 @@
  border-radius: 50%;
 }
 
+@media screen and (max-width: 1280px) {
+ .categoryList_category__kGfZ1 {
+  width: 20%;
+ }
+}
+
+@media screen and (max-width: 1024px) {
+ .categoryList_category__kGfZ1 {
+  width: 25%;
+ }
+}
+
+@media screen and (max-width: 768px) {
+ .categoryList_category__kGfZ1 {
+  width: 45%;
+ }
+}
+
+@media screen and (max-width: 640px) {
+ .categoryList_category__kGfZ1 {
+  width: 50%;
+ }
+}
+
 /*!*********************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/app/homepage.module.css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************/
