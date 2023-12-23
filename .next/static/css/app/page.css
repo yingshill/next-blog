@@ -218,7 +218,80 @@
 /*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/menu/Menu.module.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************/
-.Menu_container__r5b56 {
- flex: 2 1;
+.Menu_items__gRsho {
+}
+
+.Menu_item__XRCVf {
+ display: flex;
+ align-items: center;
+ gap: 20px;
+}
+
+.Menu_imageContainer__VKg9g {
+ flex: 1 1;
+ aspect-ratio: 1/1;
+ position: relative;
+}
+
+.Menu_image__xIt9T {
+ border-radius: 50%;
+ border: 3px solid lightgray;
+ object-fit: cover;
+}
+
+.Menu_textContainer__8pqkh {
+ flex: 4 1;
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+}
+
+.Menu_category__EFhBp {
+ padding: 3px 8px;
+ border-radius: 10px;
+ font-size: 12px;
+ color: black;
+ width: max-content;
+}
+
+.Menu_category__EFhBp.Menu_travel___uwJW {
+ background-color: #ff795736;
+}
+
+.Menu_category__EFhBp.Menu_food__TYs5q {
+ background-color: #7fb88133;
+}
+
+.Menu_category__EFhBp.Menu_fashion__ssgVZ {
+ background-color: #da85c731;
+}
+
+.Menu_category__EFhBp.Menu_coding__IPJKj {
+ background-color: #ff795736;
+}
+
+.Menu_category__EFhBp.Menu_culture__8Gxn8 {
+ background-color: #ffb04f45;
+}
+
+.Menu_category__EFhBp.Menu_style__flNdE {
+ background-color: #5e4fff31;
+}
+
+.Menu_postTitle__pdoJ1 {
+ font-size: 18px;
+ font-weight: 500;
+ color: var(--softTextColor);
+}
+
+.Menu_detail__OnXUl {
+ font-size: 12px;
+}
+
+.Menu_username__sOZI7 {
+}
+
+.Menu_date__ReLZ8 {
+ color: gray;
 }
 
