@@ -54,6 +54,12 @@
  width: max-content;
 }
 
+.categoryList {
+}
+
+.categoryItem {
+}
+
 .category.travel {
  background-color: #ff795736;
 }
