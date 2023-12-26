@@ -5,6 +5,7 @@ import Footer from '@/components/footer/Footer'
 import { ThemeContextProvider } from '@/context/ThemeContext'
 import ThemeProvider from '@/providers/ThemeProvider'
 const inter = Inter({ subsets: ['latin'] })
+import AuthProvider from '@/providers/AuthProvider'
 
 export const metadata = {
   title: 'Vincy Blog',
@@ -16,17 +17,20 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         {/* Where theme state can be shared across the app */}
-        <ThemeContextProvider>
-            <ThemeProvider>
-                <div className="container">
-                    <div className='wrapper'>
-                        <Navbar />
-                          {children}
-                        <Footer />
+        <AuthProvider>
+            <ThemeContextProvider>
+                <ThemeProvider>
+                    <div className="container">
+                        <div className='wrapper'>
+                            <Navbar />
+                            {children}
+                            <Footer />
+                        </div>
                     </div>
-                </div>
-            </ThemeProvider>
-        </ThemeContextProvider>
+                </ThemeProvider>
+            </ThemeContextProvider>
+        </AuthProvider>
+        
       </body>
     </html>
   )

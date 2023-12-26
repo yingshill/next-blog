@@ -4,7 +4,6 @@ import React, { useContext, useEffect, useState } from 'react'
 
 export default function ThemeProvider({ children }) {
   const { theme } = useContext(ThemeContext);
-  console.log("ThemeProvider file: ", {theme})
   const [ mounted, setMounted ] = useState(false);
 
   useEffect(() => {
