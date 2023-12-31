@@ -1,3 +1,77 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/comments/comments.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.comments_container__xxba1 {
+ margin-top: 50px;
+}
+
+.comments_title__Q4Ma_ {
+ color: var(--softTextColor);
+ margin-bottom: 30px;
+}
+
+.comments_write__WpTkj {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ gap: 30px;
+}
+
+.comments_input__Om1ak {
+ padding: 20px;
+ width: 100%;
+}
+
+.comments_button__gOWXM {
+ padding: 16px 20px;
+ background-color: teal;
+ color: white;
+ font-weight: bold;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+.comments_comments__0uKqx {
+ margin-top: 50px;
+}
+
+.comments_comment__VdHvU {
+ margin-bottom: 50px;
+}
+
+.comments_user__YXVWa {
+ display: flex;
+ align-items: center;
+ gap: 20px;
+ margin-bottom: 20px;
+}
+
+.comments_image__xlffC {
+ border-radius: 50%;
+ object-fit: cover;
+}
+
+.comments_userInfo__OOZgO {
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+ color: var(--softTextColor);
+}
+
+.comments_username__vjnPs {
+ font-weight: 500;
+}
+
+.comments_date__u970Q {
+ font-size: 14px;
+}
+
+.comments_desc__Jakce {
+ font-size: 18px;
+ font-weight: 300;
+}
+
 /*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/Menu/Menu.module.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************/
@@ -341,79 +415,5 @@
  .singlePage_description__wJyyk p {
   font-size: 18px;
  }
-}
-
-/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/comments/comments.module.css ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************************/
-.comments_container__xxba1 {
- margin-top: 50px;
-}
-
-.comments_title__Q4Ma_ {
- color: var(--softTextColor);
- margin-bottom: 30px;
-}
-
-.comments_write__WpTkj {
- display: flex;
- align-items: center;
- justify-content: space-between;
- gap: 30px;
-}
-
-.comments_input__Om1ak {
- padding: 20px;
- width: 100%;
-}
-
-.comments_button__gOWXM {
- padding: 16px 20px;
- background-color: teal;
- color: white;
- font-weight: bold;
- border: none;
- border-radius: 5px;
- cursor: pointer;
-}
-
-.comments_comments__0uKqx {
- margin-top: 50px;
-}
-
-.comments_comment__VdHvU {
- margin-bottom: 50px;
-}
-
-.comments_user__YXVWa {
- display: flex;
- align-items: center;
- gap: 20px;
- margin-bottom: 20px;
-}
-
-.comments_image__xlffC {
- border-radius: 50%;
- object-fit: cover;
-}
-
-.comments_userInfo__OOZgO {
- display: flex;
- flex-direction: column;
- gap: 5px;
- color: var(--softTextColor);
-}
-
-.comments_username__vjnPs {
- font-weight: 500;
-}
-
-.comments_date__u970Q {
- font-size: 14px;
-}
-
-.comments_desc__Jakce {
- font-size: 18px;
- font-weight: 300;
 }
 
