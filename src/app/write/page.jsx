@@ -7,6 +7,7 @@ import ReactQuill from "react-quill";
 import "react-quill/dist/quill.bubble.css";
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
+import { useSession } from "next-auth/react";
 
 export default function WritePage() {
 
@@ -20,7 +21,7 @@ export default function WritePage() {
   }
 
   const router = useRouter();
-  if (status === "authenticated") {
+  if (status === "unauthenticated") {
     router.push("/");
   }
   return (
