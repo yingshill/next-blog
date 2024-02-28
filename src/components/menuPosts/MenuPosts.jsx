@@ -3,8 +3,25 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from './menuPosts.module.css'
   
+const getData = async () => {
+    const res = await fetch(`http://localhost:3000/api/posts?isPopular=true`, {
+      cache: "no-store",
+    });
+  
+    if (!res.ok) {
+      throw new Error("Failed");
+    }
+  
+    return res.json();
+};
+
+
 
 const MenuPosts = async ({ withImage}) => {
+
+    const {posts, count} = await getData();
+
+    console.log(posts)
 
     return (
       <div className={styles.items}>

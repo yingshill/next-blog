@@ -18,13 +18,14 @@ const getData = async () => {
 const CategoryList = async () => {
   /** Somehow the data coming back is an object so .categories to access it as an list */
   const data = await getData();
+  console.log("data from CatList", data)
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Popular Categories</h1>
       <div className={styles.categories}>
         {data.categories?.map((item) => (
           <Link
-            href="/blog?cat=style"
+            href={`/blog?cat=${item.slug}`}
             className={`${styles.category} ${styles[item.slug]}`}
             key={item._id}
           >
